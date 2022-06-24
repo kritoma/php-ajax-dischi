@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    padding-top: 1.875rem;
+}
+
+header {
+    padding: 20px;
+    background-color: #2e3a46;
+}
+
+header img{
+    height: 60px;
+}
+
+main {
+    background-color: #1e2d3b;
+}
+
+.card {
+    width: calc(100% / 5 - 20px);
+    background-color: #2e3a46;
+    padding: .625rem;
+    color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
